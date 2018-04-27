@@ -773,11 +773,11 @@ def main():
 
     radio_val = tk.IntVar()
     radio1 = tk.Radiobutton(buttonframe,
-                   text="PCA",
+                   text="Type A",# PCA
                    variable=radio_val,
                    value=1)
     radio2 = tk.Radiobutton(buttonframe,
-                   text="t-SNE",
+                   text="Type B",#t-SNE
                    variable=radio_val,
                    value=2)
     # set default selection

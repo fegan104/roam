@@ -437,7 +437,7 @@ def create_map_from_data(name, data,
     # PCA or t-SNE based on type
     if type == 1:
         # PCA code
-        pca = decomposition.PCA(n_components=26)
+        pca = decomposition.PCA(n_components=5)
         pca.fit(data)
         y = pca.transform(data)
         return Map2D(name, labels, prob, y[:, 1:3], prior, params)

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3.6
 # Roam - Copyright 2018 David J. C. Beach; see LICENSE in project root
 
 import sys
